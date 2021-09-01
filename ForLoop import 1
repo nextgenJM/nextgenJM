@@ -1,0 +1,42 @@
+list = ['Joyce', 'Lizzy', 'Michelle', 'Siyammamma', 'earth', 'Habib', 'Timayo', 'Happiness']
+
+for item in list:
+    if item == 'Jackie':
+        print('yes, Joyce is in class')
+    else:
+        print('Jackie isn\'t part of my class')
+
+#        Iterations
+
+print(len(list))
+
+number_of_items = len(list)
+number = 5
+while number > 4:
+    print('true')
+    if number == 5:
+        print('stop')
+    break
+
+while True:
+    for item in list:
+        if item == 'earth':
+            print('Earth isn\'t human but is part of our list')
+        else:
+            print(f'{item} is human')
+    break
+
+
+def square(first_number, second_number):
+    return (first_number ** 2) * (second_number ** 2)
+
+
+def krok(first_number, second_number, third_number):
+    return (first_number + second_number + third_number)/first_number
+
+
+from Math2.ForLoop import list, number, number_of_items, square, krok
+
+print(square(5, 6))
+
+print(krok(2, 4, 4))
