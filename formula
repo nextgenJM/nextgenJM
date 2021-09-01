@@ -1,0 +1,52 @@
+def area_of_a_circle(Radius):
+    return 3.14 * (Radius ** 2)
+
+def area_of_a_square(Length):
+    return (Length * Length)
+
+def area_of_a_rectangle(Length, Width):
+    return (Length * Width)
+
+def area_of_a_Parallelogram(Length, Width):
+    return (Length * Width)
+
+def area_of_a_triangle(Base, height):
+    return 1/2 * (Base * height)
+
+def area_of_a_cube(Edge):
+    return 6 * (Edge ** 2)
+
+def perimeter_of_a_square(Length):
+    return 4 * (Length)
+
+def perimeter_of_a_rectangle(Length, Width):
+    return 2 * (Length + Width)
+
+def perimeter_of_a_circle(pi, Radius):
+    return 2 * (pi * Radius)
+
+def perimeter_of_a_triangle(sideA, sideB, sideC):
+    return (sideA + sideB + sideC)
+
+
+from Formula.Formulae import area_of_a_circle, area_of_a_square, area_of_a_rectangle, area_of_a_Parallelogram, area_of_a_triangle, area_of_a_cube, perimeter_of_a_square, perimeter_of_a_rectangle, perimeter_of_a_circle, perimeter_of_a_triangle
+
+print(area_of_a_circle(14))
+
+print(area_of_a_square(56))
+
+print(area_of_a_rectangle(45, 40))
+
+print(area_of_a_Parallelogram(22, 12))
+
+print(area_of_a_triangle(14, 6))
+
+print(area_of_a_cube(18))
+
+print(perimeter_of_a_square(16))
+
+print(perimeter_of_a_circle(3.14, 16))
+
+print(perimeter_of_a_rectangle(12, 8))
+
+print(perimeter_of_a_triangle(14, 26, 18))
