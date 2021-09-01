@@ -1,0 +1,51 @@
+def calculate(principal, rate, time):
+    return int(principal * rate * time)/100
+
+list = ['bag', 'pen', 'textbook', 'pencil', 'eraser', 'iPad']
+
+def my_properties():
+    for every_item in list:
+        print(f'The {every_item} is mine')
+
+def sum(num1, num2):
+    return num1 + num2
+
+def multiply(num1, num2, num3):
+    return num1 * num2 * num3
+
+def age_calc(age, birth_year):
+    return int(age * birth_year)/int(age + 10)
+
+def tree():
+       print( '''
+          *
+         ***
+        *****
+       *******
+          *
+          *
+          
+      '''
+              )
+
+def hangman():
+        print( '''
+       _______
+          |
+          |
+          |
+          0
+         /|
+         / \
+    '''
+               )
+
+
+from math.DefiningFunctions import calculate, my_properties, tree, hangman
+
+print(calculate(100, 10, 5))
+
+my_properties()
+
+tree()
+hangman()
