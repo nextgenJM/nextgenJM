@@ -1,0 +1,38 @@
+Question1 = input('hi there! my name is PyCharm. What\'s your\'s? ')
+print('''
+
+''')
+Question2 = input('which program are you attending? ')
+print('''
+
+''')
+Question3 = input('which aspect of programming are you learning? ')
+print('''
+
+''')
+Question4 = input('are you enjoying your classes? ')
+print('''
+
+''')
+Question5 = input('can you tell us how you are enjoying the program so far? ')
+print('''
+
+''')
+Question6 = input('would you like us to make you one of our members? ')
+print('''
+
+''')
+Question7 = input('Do you know GitHub? ')
+print('''
+
+''')
+Question8 = input('see you on Github!!')
+print(f'''wow, {Question1} said she is attending {Question2}
+Not to mention the fact that she is participating in {Question3}
+And she says: {Question4}
+She also says: {Question5}
+She said {Question6}, that's a relief
+I can't believe she said {Question7}
+I am going to see her on Github
+
+Thank you for answering our questionnaire. Have an awesome day!!''')
