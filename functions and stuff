@@ -1,0 +1,90 @@
+name = 'Marci'
+print(name)
+print([3])
+print(name[3:5])
+print(name.replace('r', 'w'))
+print(len(name))
+print(name.upper())
+print(name.lower())
+
+
+name = 'Joyce'
+print(name)
+print([2])
+print(name[2:5])
+print(name.replace('o', 'j'))
+print(len(name))
+print(name.upper())
+print(name.lower())
+
+w = 123
+r = 1234
+t = 3446
+
+print('the addition of w,r and t is')
+print(w + r + t)
+print('the multiplication of w,r and t is')
+print(w*r*t)
+
+Sadie_does_magic = False
+Blane_does_magic = False
+Gilbert_does_magic = False
+
+if Sadie_does_magic and Blane_does_magic and Gilbert_does_magic:
+    print('the three of them perform magic')
+elif Sadie_does_magic and Gilbert_does_magic:
+    print('so, Blane does not do magic')
+elif Blane_does_magic and Gilbert_does_magic:
+    print('Sadie does not do magic')
+elif Sadie_does_magic and Blane_does_magic:
+    print('what about Gilbert?')
+else:
+    print('neither of them do magic')
+
+email = 'Joyce@gmail.com'
+email2 = 'Joyce@hotmail.com'
+password = '28912'
+
+enter_email = input('Enter your email: ')
+enter_password = input('Enter your password: ')
+
+if(email and email2) == enter_email and password == enter_password:
+    print('welcome Joyce-Michelle')
+elif(email or email2) == enter_email and password != enter_password:
+    print('wrong password')
+elif(email or email2) != enter_email and password == enter_password:
+    print('wrong email')
+else:
+    print('Access denied. pls try again later')
+
+name = 'SmartKids brain builder'
+password = 'SMARTY'
+
+enter_name = input('pls enter name: ')
+enter_password = input('pls enter password: ')
+score = 0
+if name == enter_name and password == enter_password:
+    print('welcome to SmartKids brain builder!')
+    first_question = int(input('what is 7**3?'))
+    answer = 343
+    if first_question == answer:
+        score += 10
+        print(f'you have {score} points!')
+    else:
+        print('0 points')
+    second_question = input('who is the host of this lesson?')
+    answer2 = 'Mr.Philip'
+    if second_question == answer2:
+        score += 10
+        print(f'you have {score} points!')
+    else:
+        print('0 points')
+    third_question = int(input('what is a 100/2?'))
+    answer3 = 50
+    if third_question == answer3:
+        score += 10
+        print(f'you have {score} points')
+    else:
+        print('0 points')
+else:
+    print('no entry')
